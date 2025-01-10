@@ -23,7 +23,7 @@ class _HomeState extends State<Home> {
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget   build(BuildContext context) {
     return Scaffold(
       backgroundColor: tdBGColor,
       appBar: _buildAppBar(),
@@ -210,7 +210,7 @@ class _HomeState extends State<Home> {
           width: 40,
           child: ClipRRect(
             borderRadius: BorderRadius.circular(20),
-            child: Image.asset('assets/images/anisa.jpeg'),
+            child: Image.asset('assets/anisa.jpeg'),
           ),
         ),
       ]),
